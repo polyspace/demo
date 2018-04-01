@@ -1,0 +1,97 @@
+1516536212.226: DM started: dm_pid=2012
+1516536212.226: DM command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 61808 --log-file D:/Projects/demo/output/distributor.log -j 4 --AW-timeout 36000 D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1516536212.226: Connecting to AM at 127.0.0.1:61808
+1516536212.242: Connected to AM: (local) 127.0.0.1:61809 - 127.0.0.1:61808 (remote)
+1516536212.242: Listening for DWs at 127.0.0.1:61810
+1516536212.242: Starting DW 1 with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 61810 --DW-id 1
+1516536212.491: DW 1 started: dw_pid=3820
+1516536212.491: Starting DW 2 with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 61810 --DW-id 2
+1516536212.600: DW 2 started: dw_pid=2632
+1516536212.600: Starting DW 3 with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 61810 --DW-id 3
+1516536212.694: DW 3 started: dw_pid=7128
+1516536212.694: Starting DW 4 with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 61810 --DW-id 4
+1516536212.803: DW 4 started: dw_pid=5868
+1516536212.803: DW 1 log: 1516536212.529: Connecting to DM on 127.0.0.1:61810
+1516536212.803: DW 1 log: 1516536212.545: Connected to the DM: (local) 127.0.0.1:61811 - 127.0.0.1:61810 (remote)
+1516536212.803: DW 1 log: 1516536212.545: Sending DWDM_INIT: dw_id=1, benchmark=0
+1516536212.803: DW 2 log: 1516536212.630: Connecting to DM on 127.0.0.1:61810
+1516536212.803: DW 2 log: 1516536212.645: Connected to the DM: (local) 127.0.0.1:61812 - 127.0.0.1:61810 (remote)
+1516536212.803: DW 2 log: 1516536212.645: Sending DWDM_INIT: dw_id=2, benchmark=0
+1516536212.803: DW 3 log: 1516536212.730: Connecting to DM on 127.0.0.1:61810
+1516536212.803: DW 3 log: 1516536212.730: Connected to the DM: (local) 127.0.0.1:61813 - 127.0.0.1:61810 (remote)
+1516536212.803: DW 3 log: 1516536212.730: Sending DWDM_INIT: dw_id=3, benchmark=0
+1516536212.803: Received a connection from a DW: 127.0.0.1:61811
+1516536212.803: Received a connection from a DW: 127.0.0.1:61812
+1516536212.803: Received a connection from a DW: 127.0.0.1:61813
+1516536212.803: Received DWDM_INIT: dw_id=1, benchmark=0
+1516536212.803: Sending DMDW_INIT to DW 1: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.803: Received DWDM_INIT: dw_id=2, benchmark=0
+1516536212.803: Sending DMDW_INIT to DW 2: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.803: DW 1 log: 1516536212.794: Received DMDW_INIT: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.803: Received DWDM_INIT: dw_id=3, benchmark=0
+1516536212.803: Sending DMDW_INIT to DW 3: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.803: DW 1 log: 1516536212.794: Started listening for AW at 127.0.0.1:61814
+1516536212.803: DW 2 log: 1516536212.801: Received DMDW_INIT: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.803: DW 1 log: 1516536212.794: Starting AW with command line (COVERITY_DW_PORT=61814): D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1516536212.803: DW 2 log: 1516536212.801: Started listening for AW at 127.0.0.1:61815
+1516536212.803: DW 3 log: 1516536212.792: Received DMDW_INIT: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.803: DW 2 log: 1516536212.801: Starting AW with command line (COVERITY_DW_PORT=61815): D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1516536212.803: DW 3 log: 1516536212.792: Started listening for AW at 127.0.0.1:61816
+1516536212.803: DW 3 log: 1516536212.792: Starting AW with command line (COVERITY_DW_PORT=61816): D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1516536212.866: DW 1 log: 1516536212.857: AW started: aw_pid=6072
+1516536212.912: DW 4 log: 1516536212.910: Connecting to DM on 127.0.0.1:61810
+1516536212.928: DW 2 log: 1516536212.926: AW started: aw_pid=5404
+1516536212.928: Received a connection from a DW: 127.0.0.1:61817
+1516536212.928: DW 4 log: 1516536212.926: Connected to the DM: (local) 127.0.0.1:61817 - 127.0.0.1:61810 (remote)
+1516536212.928: Received DWDM_INIT: dw_id=4, benchmark=0
+1516536212.928: Stopping to listen for new DWs
+1516536212.928: Sending DMDW_INIT to DW 4: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.928: DW 4 log: 1516536212.926: Sending DWDM_INIT: dw_id=4, benchmark=0
+1516536212.928: DW 4 log: 1516536212.926: Received DMDW_INIT: aw_command_line=["D:\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze.exe","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1516536212.928: DW 4 log: 1516536212.926: Started listening for AW at 127.0.0.1:61818
+1516536212.928: DW 4 log: 1516536212.926: Starting AW with command line (COVERITY_DW_PORT=61818): D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1516536212.975: DW 3 log: 1516536212.964: AW started: aw_pid=6164
+1516536212.975: DW 4 log: 1516536212.973: AW started: aw_pid=3976
+1516536212.990: DW 1 log: 1516536212.966: DW 1 received connection from AW: (local) 127.0.0.1:61814 - 127.0.0.1:61819 (remote)
+1516536213.084: DW 4 log: 1516536213.082: DW 4 received connection from AW: (local) 127.0.0.1:61818 - 127.0.0.1:61820 (remote)
+1516536213.084: DW 2 log: 1516536213.082: DW 2 received connection from AW: (local) 127.0.0.1:61815 - 127.0.0.1:61821 (remote)
+1516536213.100: DW 3 log: 1516536213.089: DW 3 received connection from AW: (local) 127.0.0.1:61816 - 127.0.0.1:61822 (remote)
+1516536213.443: AM closed the connection, DM shutting down
+1516536213.443: Disconnecting DW 1
+1516536213.443: Disconnecting DW 2
+1516536213.443: Disconnecting DW 3
+1516536213.458: Disconnecting DW 4
+1516536213.458: DW 1 log: 1516536213.434: DW 1: the DM closed the connection, DW shutting down
+1516536213.458: DW 2 log: 1516536213.441: DW 2: the DM closed the connection, DW shutting down
+1516536213.458: DW 3 log: 1516536213.432: DW 3: the DM closed the connection, DW shutting down
+1516536213.458: DW 1 log: 1516536213.434: DW 1 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1516536213.458: DW 1 log: 1516536213.434: Disconnecting AW
+1516536213.458: DW 2 log: 1516536213.441: DW 2 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1516536213.458: DW 2 log: 1516536213.441: Disconnecting AW
+1516536213.458: DW 3 log: 1516536213.432: DW 3 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1516536213.458: DW 3 log: 1516536213.432: Disconnecting AW
+1516536213.458: DW 1 log: 1516536213.449: AW exited with code 0
+1516536213.458: DW 4 log: 1516536213.456: DW 4: the DM closed the connection, DW shutting down
+1516536213.458: DW 1 log: AW peak mem bytes: 5996544
+1516536213.458: DW 1 log: 
+1516536213.458: DW 4 log: 1516536213.456: DW 4 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1516536213.458: DW 4 log: 1516536213.456: Disconnecting AW
+1516536213.458: DW 1 exited with code 0
+1516536213.474: DW 2 log: 1516536213.472: AW exited with code 0
+1516536213.474: DW 3 log: 1516536213.463: AW exited with code 0
+1516536213.474: DW 2 log: AW peak mem bytes: 6000640
+1516536213.474: DW 2 log: 
+1516536213.474: DW 3 log: AW peak mem bytes: 6000640
+1516536213.474: DW 3 log: 
+1516536213.474: DW 3 exited with code 0
+1516536213.474: DW 2 exited with code 0
+1516536213.490: DW 4 log: 1516536213.488: AW exited with code 0
+1516536213.490: DW 4 log: AW peak mem bytes: 6000640
+1516536213.490: DW 4 log: 
+1516536213.490: DW 4 exited with code 0
+1516536213.490: dm-summary: elapsed_time_ms=1264, am_to_dm_wus=0, dm_to_am_wurs=0
+1516536213.490: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1516536213.490: dw-summary: dw_id=2, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1516536213.490: dw-summary: dw_id=3, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1516536213.490: dw-summary: dw_id=4, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1516536213.490: DM exiting with code 0
